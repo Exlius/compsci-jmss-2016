@@ -1,6 +1,6 @@
-my_list = [1,2,3,5]
+mylist = [1,2,3,4,5]
 
 try:
-    x = my_list[5]
+    x = mylist[5]
 except IndexError:
-    print("Out of Range")
+    print("Out of range")
